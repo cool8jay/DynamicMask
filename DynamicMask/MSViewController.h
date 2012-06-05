@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MSViewController : UIViewController
+@interface MSViewController : UIViewController{
+	UIImage *sourceImage;
+	UIImageView *imageView;
+
+	IBOutlet UISlider *slider1;
+	IBOutlet UISlider *slider2;
+}
+
+-(IBAction)sliderValueChanged:(id)sender;
 
 @end

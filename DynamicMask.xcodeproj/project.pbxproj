@@ -15,6 +15,9 @@
 		8FABE42C157E4130009E2DB3 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FABE42B157E4130009E2DB3 /* MSAppDelegate.m */; };
 		8FABE42F157E4130009E2DB3 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FABE42E157E4130009E2DB3 /* MSViewController.m */; };
 		8FABE432157E4130009E2DB3 /* MSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FABE430157E4130009E2DB3 /* MSViewController.xib */; };
+		8FABE439157E59BD009E2DB3 /* corgi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FABE438157E59BD009E2DB3 /* corgi.png */; };
+		8FABE43B157E5A00009E2DB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FABE43A157E5A00009E2DB3 /* QuartzCore.framework */; };
+		8FABE445157E67F8009E2DB3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FABE444157E67F8009E2DB3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		8FABE41B157E4130009E2DB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FABE41D157E4130009E2DB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8FABE41F157E4130009E2DB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8FABE423157E4130009E2DB3 /* DynamicMask-Info.plist */ = {isa = PBXFileReference; path = "DynamicMask-Info.plist"; sourceTree = "<group>"; };
+		8FABE423157E4130009E2DB3 /* DynamicMask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicMask-Info.plist"; sourceTree = "<group>"; };
 		8FABE425157E4130009E2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FABE427157E4130009E2DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8FABE429157E4130009E2DB3 /* DynamicMask-Prefix.pch */ = {isa = PBXFileReference; path = "DynamicMask-Prefix.pch"; sourceTree = "<group>"; };
-		8FABE42A157E4130009E2DB3 /* MSAppDelegate.h */ = {isa = PBXFileReference; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		8FABE429157E4130009E2DB3 /* DynamicMask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicMask-Prefix.pch"; sourceTree = "<group>"; };
+		8FABE42A157E4130009E2DB3 /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
 		8FABE42B157E4130009E2DB3 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
-		8FABE42D157E4130009E2DB3 /* MSViewController.h */ = {isa = PBXFileReference; path = MSViewController.h; sourceTree = "<group>"; };
+		8FABE42D157E4130009E2DB3 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
 		8FABE42E157E4130009E2DB3 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
 		8FABE431157E4130009E2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MSViewController.xib; sourceTree = "<group>"; };
+		8FABE438157E59BD009E2DB3 /* corgi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corgi.png; sourceTree = "<group>"; };
+		8FABE43A157E5A00009E2DB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8FABE444157E67F8009E2DB3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FABE43B157E5A00009E2DB3 /* QuartzCore.framework in Frameworks */,
 				8FABE41C157E4130009E2DB3 /* UIKit.framework in Frameworks */,
 				8FABE41E157E4130009E2DB3 /* Foundation.framework in Frameworks */,
 				8FABE420157E4130009E2DB3 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +74,7 @@
 		8FABE41A157E4130009E2DB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8FABE43A157E5A00009E2DB3 /* QuartzCore.framework */,
 				8FABE41B157E4130009E2DB3 /* UIKit.framework */,
 				8FABE41D157E4130009E2DB3 /* Foundation.framework */,
 				8FABE41F157E4130009E2DB3 /* CoreGraphics.framework */,
@@ -82,6 +90,7 @@
 				8FABE42D157E4130009E2DB3 /* MSViewController.h */,
 				8FABE42E157E4130009E2DB3 /* MSViewController.m */,
 				8FABE430157E4130009E2DB3 /* MSViewController.xib */,
+				8FABE444157E67F8009E2DB3 /* README.md */,
 				8FABE422157E4130009E2DB3 /* Supporting Files */,
 			);
 			path = DynamicMask;
@@ -90,6 +99,7 @@
 		8FABE422157E4130009E2DB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FABE438157E59BD009E2DB3 /* corgi.png */,
 				8FABE423157E4130009E2DB3 /* DynamicMask-Info.plist */,
 				8FABE424157E4130009E2DB3 /* InfoPlist.strings */,
 				8FABE427157E4130009E2DB3 /* main.m */,
@@ -151,6 +161,8 @@
 			files = (
 				8FABE426157E4130009E2DB3 /* InfoPlist.strings in Resources */,
 				8FABE432157E4130009E2DB3 /* MSViewController.xib in Resources */,
+				8FABE439157E59BD009E2DB3 /* corgi.png in Resources */,
+				8FABE445157E67F8009E2DB3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
