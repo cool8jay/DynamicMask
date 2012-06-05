@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FABE41C157E4130009E2DB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FABE41B157E4130009E2DB3 /* UIKit.framework */; };
+		8FABE41E157E4130009E2DB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FABE41D157E4130009E2DB3 /* Foundation.framework */; };
+		8FABE420157E4130009E2DB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FABE41F157E4130009E2DB3 /* CoreGraphics.framework */; };
+		8FABE426157E4130009E2DB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FABE424157E4130009E2DB3 /* InfoPlist.strings */; };
+		8FABE428157E4130009E2DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FABE427157E4130009E2DB3 /* main.m */; };
+		8FABE42C157E4130009E2DB3 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FABE42B157E4130009E2DB3 /* MSAppDelegate.m */; };
+		8FABE42F157E4130009E2DB3 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FABE42E157E4130009E2DB3 /* MSViewController.m */; };
+		8FABE432157E4130009E2DB3 /* MSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FABE430157E4130009E2DB3 /* MSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FABE417157E4130009E2DB3 /* DynamicMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FABE41B157E4130009E2DB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FABE41D157E4130009E2DB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FABE41F157E4130009E2DB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FABE423157E4130009E2DB3 /* DynamicMask-Info.plist */ = {isa = PBXFileReference; path = "DynamicMask-Info.plist"; sourceTree = "<group>"; };
+		8FABE425157E4130009E2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FABE427157E4130009E2DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FABE429157E4130009E2DB3 /* DynamicMask-Prefix.pch */ = {isa = PBXFileReference; path = "DynamicMask-Prefix.pch"; sourceTree = "<group>"; };
+		8FABE42A157E4130009E2DB3 /* MSAppDelegate.h */ = {isa = PBXFileReference; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		8FABE42B157E4130009E2DB3 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		8FABE42D157E4130009E2DB3 /* MSViewController.h */ = {isa = PBXFileReference; path = MSViewController.h; sourceTree = "<group>"; };
+		8FABE42E157E4130009E2DB3 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		8FABE431157E4130009E2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FABE414157E4130009E2DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FABE41C157E4130009E2DB3 /* UIKit.framework in Frameworks */,
+				8FABE41E157E4130009E2DB3 /* Foundation.framework in Frameworks */,
+				8FABE420157E4130009E2DB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FABE40C157E4130009E2DB3 = {
+			isa = PBXGroup;
+			children = (
+				8FABE421157E4130009E2DB3 /* DynamicMask */,
+				8FABE41A157E4130009E2DB3 /* Frameworks */,
+				8FABE418157E4130009E2DB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FABE418157E4130009E2DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FABE417157E4130009E2DB3 /* DynamicMask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FABE41A157E4130009E2DB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FABE41B157E4130009E2DB3 /* UIKit.framework */,
+				8FABE41D157E4130009E2DB3 /* Foundation.framework */,
+				8FABE41F157E4130009E2DB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FABE421157E4130009E2DB3 /* DynamicMask */ = {
+			isa = PBXGroup;
+			children = (
+				8FABE42A157E4130009E2DB3 /* MSAppDelegate.h */,
+				8FABE42B157E4130009E2DB3 /* MSAppDelegate.m */,
+				8FABE42D157E4130009E2DB3 /* MSViewController.h */,
+				8FABE42E157E4130009E2DB3 /* MSViewController.m */,
+				8FABE430157E4130009E2DB3 /* MSViewController.xib */,
+				8FABE422157E4130009E2DB3 /* Supporting Files */,
+			);
+			path = DynamicMask;
+			sourceTree = "<group>";
+		};
+		8FABE422157E4130009E2DB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FABE423157E4130009E2DB3 /* DynamicMask-Info.plist */,
+				8FABE424157E4130009E2DB3 /* InfoPlist.strings */,
+				8FABE427157E4130009E2DB3 /* main.m */,
+				8FABE429157E4130009E2DB3 /* DynamicMask-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FABE416157E4130009E2DB3 /* DynamicMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FABE435157E4130009E2DB3 /* Build configuration list for PBXNativeTarget "DynamicMask" */;
+			buildPhases = (
+				8FABE413157E4130009E2DB3 /* Sources */,
+				8FABE414157E4130009E2DB3 /* Frameworks */,
+				8FABE415157E4130009E2DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicMask;
+			productName = DynamicMask;
+			productReference = 8FABE417157E4130009E2DB3 /* DynamicMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FABE40E157E4130009E2DB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8FABE411157E4130009E2DB3 /* Build configuration list for PBXProject "DynamicMask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FABE40C157E4130009E2DB3;
+			productRefGroup = 8FABE418157E4130009E2DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FABE416157E4130009E2DB3 /* DynamicMask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FABE415157E4130009E2DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FABE426157E4130009E2DB3 /* InfoPlist.strings in Resources */,
+				8FABE432157E4130009E2DB3 /* MSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FABE413157E4130009E2DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FABE428157E4130009E2DB3 /* main.m in Sources */,
+				8FABE42C157E4130009E2DB3 /* MSAppDelegate.m in Sources */,
+				8FABE42F157E4130009E2DB3 /* MSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FABE424157E4130009E2DB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FABE425157E4130009E2DB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FABE430157E4130009E2DB3 /* MSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FABE431157E4130009E2DB3 /* en */,
+			);
+			name = MSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FABE433157E4130009E2DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FABE434157E4130009E2DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FABE436157E4130009E2DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicMask/DynamicMask-Prefix.pch";
+				INFOPLIST_FILE = "DynamicMask/DynamicMask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FABE437157E4130009E2DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicMask/DynamicMask-Prefix.pch";
+				INFOPLIST_FILE = "DynamicMask/DynamicMask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FABE411157E4130009E2DB3 /* Build configuration list for PBXProject "DynamicMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FABE433157E4130009E2DB3 /* Debug */,
+				8FABE434157E4130009E2DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FABE435157E4130009E2DB3 /* Build configuration list for PBXNativeTarget "DynamicMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FABE436157E4130009E2DB3 /* Debug */,
+				8FABE437157E4130009E2DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FABE40E157E4130009E2DB3 /* Project object */;
+}
