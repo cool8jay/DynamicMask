@@ -1,7 +1,7 @@
 DynamicMask
 =====================
 
-Intro
+About
 -----------
 
 A demo project that implements dynamic mask on an image.
